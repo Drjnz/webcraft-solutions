@@ -121,7 +121,7 @@ function Home() {
                   <div className="col-md-6 col-lg-4" key={project.id}>
                     <ProjectCard
                       project={project}
-                      onDetails={openProjectDetails}
+                      Details={openProjectDetails}
                     />
                   </div>
                 ))
@@ -163,7 +163,7 @@ function Home() {
                   <div className="col-md-6 col-lg-4" key={course.id}>
                     <CourseCard
                       course={course}
-                      onDetails={openCourseDetails}
+                      Details={openCourseDetails}
                     />
                   </div>
                 ))
