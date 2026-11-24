@@ -24,7 +24,7 @@ function Header() {
           <ul className="navbar-nav ms-auto align-items-lg-center gap-lg-3">
 
             <li className="nav-item">
-              <a className="nav-link" href="#home">
+              <a className="nav-link" href="/">
                 Accueil
               </a>
             </li>
@@ -38,6 +38,12 @@ function Header() {
             <li className="nav-item">
               <a className="nav-link" href="#courses">
                 Formations
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="/inscription">
+                Inscription
               </a>
             </li>
 
